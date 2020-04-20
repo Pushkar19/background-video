@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+    font-family: 'Acme', sans-serif;
+}
+video{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1
+   
+    
+    
+}
+div{
+    position: relative;
+    z-index: 2;
+   
+    margin:0 auto;
+    margin-bottom: 100px;
+    max-width: 720px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 25px;
+    color: #05a081;
+    opacity:0.9;
+   
+    font-size: 3em;
+}
+p{
+    color:white;
+    font-size: 1em;
+    opacity: 0.6;
+    
+}
+a{
+    display: inline-block;
+    padding: 12px 48px;
+    text-decoration: none;
+    border: solid 4px rgb(255,60,100);
+    font-size: 1.1em;
+    color:rgb(255,60,100);
+}
